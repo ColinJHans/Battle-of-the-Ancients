@@ -1,0 +1,1729 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 8034 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Unity\v20.1\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/github/Battle-of-the-Ancients/Battle of The Ancients
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+64191
+Successfully changed project path to: E:/github/Battle-of-the-Ancients/Battle of The Ancients
+E:/github/Battle-of-the-Ancients/Battle of The Ancients
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 59.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path E:/Unity/v20.1/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/github/Battle-of-the-Ancients/Battle of The Ancients/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'E:/Unity/v20.1/Unity/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/v20.1/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity/v20.1/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/v20.1/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002029 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.145 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007968 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.910 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.63 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 92.8 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2517.
+Total: 148.075100 ms (FindLiveObjects: 0.701100 ms CreateObjectMapping: 0.355500 ms MarkObjects: 122.338600 ms  DeleteObjects: 24.676000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Spritesheets/hexagonBuildings_sheet.png
+  artifactKey: Guid(b7778d8a3bc031b4b8a10ed6bddc42f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonBuildings_sheet.png using Guid(b7778d8a3bc031b4b8a10ed6bddc42f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465000b547c3a8b448ff3dbc83ae8b9d') in 0.906370 seconds 
+  Import took 0.971035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Spritesheets/hexagonObjects_sheet.png
+  artifactKey: Guid(18a8f06aa8fe51242a8ceb6e4f2d6a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonObjects_sheet.png using Guid(18a8f06aa8fe51242a8ceb6e4f2d6a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5159bab785f84874dab4a03699629f') in 0.133220 seconds 
+  Import took 0.159403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Spritesheets/hexagonTerrain_sheet.png
+  artifactKey: Guid(314df29f516b29d4196e56a23fd87f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonTerrain_sheet.png using Guid(314df29f516b29d4196e56a23fd87f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de88e7ec4cf50f0bc453cab60b12a803') in 0.177345 seconds 
+  Import took 0.308353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/Spritesheets/New Palette.prefab
+  artifactKey: Guid(c40b3d58ea4c3bc48bb596e8bf2b5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/New Palette.prefab using Guid(c40b3d58ea4c3bc48bb596e8bf2b5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f593998701da1caaeae4c02103da0d0') in 0.023943 seconds 
+  Import took 0.080166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet.png
+  artifactKey: Guid(f09cfd967d0420841ab192307aa72a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet.png using Guid(f09cfd967d0420841ab192307aa72a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ccfae1bd31fe4499d85bc2f3ae08b69') in 0.202831 seconds 
+  Import took 0.256612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000866 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet.asset
+  artifactKey: Guid(97e6d53f17c83e541b6d213bd8233342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet.asset using Guid(97e6d53f17c83e541b6d213bd8233342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7440cbb00c9f7e06c45c6eb698718e35') in 0.153899 seconds 
+  Import took 0.180453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.341877 seconds.
+  path: Assets/Spritesheets/hexagonObjects_sheet.xml
+  artifactKey: Guid(ad48b2030ba1b4846a0656729aa93144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonObjects_sheet.xml using Guid(ad48b2030ba1b4846a0656729aa93144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23388ab9c10ec895be7d812def7533d') in 0.019323 seconds 
+  Import took 0.101330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056571 seconds.
+  path: Assets/Spritesheets/hexagonObjects_sheet.xml
+  artifactKey: Guid(ad48b2030ba1b4846a0656729aa93144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonObjects_sheet.xml using Guid(ad48b2030ba1b4846a0656729aa93144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23388ab9c10ec895be7d812def7533d') in 0.003414 seconds 
+  Import took 0.037221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.674716 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet.xml
+  artifactKey: Guid(3f203de7bc2d3614892b6c7ebf0ab9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet.xml using Guid(3f203de7bc2d3614892b6c7ebf0ab9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebcefc326e7924a4461574678a7cf2b') in 0.046546 seconds 
+  Import took 0.141113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.847090 seconds.
+  path: Assets/Spritesheets/New Palette.prefab
+  artifactKey: Guid(c40b3d58ea4c3bc48bb596e8bf2b5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/New Palette.prefab using Guid(c40b3d58ea4c3bc48bb596e8bf2b5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90461dae0e3cf9233eeef5faec836eb3') in 0.133739 seconds 
+  Import took 0.246090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.649255 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet.png
+  artifactKey: Guid(f09cfd967d0420841ab192307aa72a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet.png using Guid(f09cfd967d0420841ab192307aa72a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73bf954f383b59e753b8443523ae688') in 0.028765 seconds 
+  Import took 0.109105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.427869 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet.png
+  artifactKey: Guid(f09cfd967d0420841ab192307aa72a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet.png using Guid(f09cfd967d0420841ab192307aa72a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c9b392b36ca1a6870bf5fb1ba94926') in 1.337808 seconds 
+  Import took 1.404281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.159022 seconds.
+  path: Assets/Spritesheets/New Palette.prefab
+  artifactKey: Guid(c40b3d58ea4c3bc48bb596e8bf2b5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/New Palette.prefab using Guid(c40b3d58ea4c3bc48bb596e8bf2b5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b7a17bfb69890fe774f4b6a191926f') in 0.008826 seconds 
+  Import took 0.175317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.336912 seconds.
+  path: Assets/Spritesheets/New Palette.prefab
+  artifactKey: Guid(c40b3d58ea4c3bc48bb596e8bf2b5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/New Palette.prefab using Guid(c40b3d58ea4c3bc48bb596e8bf2b5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790c71d9128ecdac23ce0d611ffff508') in 0.008706 seconds 
+  Import took 0.102831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.812895 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_0.asset
+  artifactKey: Guid(7d63ec025a1497b4483ebe7296184249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_0.asset using Guid(7d63ec025a1497b4483ebe7296184249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed3a0b7a2f9f5014a60dd6bc043f3eb') in 0.044128 seconds 
+  Import took 0.056528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000725 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_46.asset
+  artifactKey: Guid(3f5c63d465b93a14aae8d86cad0b6b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_46.asset using Guid(3f5c63d465b93a14aae8d86cad0b6b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f0740ec6650ff81de6aabc3df510d8') in 0.030534 seconds 
+  Import took 0.036010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_61.asset
+  artifactKey: Guid(3af57f5b2b4c51944b05ed4426fb4c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_61.asset using Guid(3af57f5b2b4c51944b05ed4426fb4c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976a4e0a44cdcde6236947996c9216ab') in 0.029293 seconds 
+  Import took 0.037033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_34.asset
+  artifactKey: Guid(c41391c3ec049244a9f8b416ad97e4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_34.asset using Guid(c41391c3ec049244a9f8b416ad97e4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753962824f17ba1db015123f4fffad40') in 0.065574 seconds 
+  Import took 0.074869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_12.asset
+  artifactKey: Guid(d9cd0aebef0d88948a05b7a6ef5d94ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_12.asset using Guid(d9cd0aebef0d88948a05b7a6ef5d94ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc84c549581386f275a36962c95441c3') in 0.032023 seconds 
+  Import took 0.040635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_36.asset
+  artifactKey: Guid(71dafdb6393a2b04db94536adf239b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_36.asset using Guid(71dafdb6393a2b04db94536adf239b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea50ee88f05bc2813696a478cd556ac') in 0.028975 seconds 
+  Import took 0.039320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_50.asset
+  artifactKey: Guid(2de5beb2558823f44a518d55e316aaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_50.asset using Guid(2de5beb2558823f44a518d55e316aaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a488771e7012029176775dc2d9e763e') in 0.039110 seconds 
+  Import took 0.051582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000843 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_76.asset
+  artifactKey: Guid(5149941518c64ca4ebfb616681ada66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_76.asset using Guid(5149941518c64ca4ebfb616681ada66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8d993ebaeecc3e32b6c4c365975629') in 0.034843 seconds 
+  Import took 0.043782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001101 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_78.asset
+  artifactKey: Guid(7ac06f8883d2c1f49b85208e9eae05f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_78.asset using Guid(7ac06f8883d2c1f49b85208e9eae05f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64293515275050f6f709594cc5d0f8b') in 0.033081 seconds 
+  Import took 0.042369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000888 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_38.asset
+  artifactKey: Guid(c296d538bb5a41245898c43c9ac385de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_38.asset using Guid(c296d538bb5a41245898c43c9ac385de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8c0da1795970102ab6ca6ac0f3009a') in 0.044772 seconds 
+  Import took 0.061119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_15.asset
+  artifactKey: Guid(62372f4318ec27f40a677f04586b7059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_15.asset using Guid(62372f4318ec27f40a677f04586b7059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df4c0232be492c723f4fa92580c1184') in 0.045579 seconds 
+  Import took 0.056040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000749 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_41.asset
+  artifactKey: Guid(c126bf6c59630854188000967b49d2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_41.asset using Guid(c126bf6c59630854188000967b49d2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f6ec932c0ee20bc84584fffb42d670') in 0.066044 seconds 
+  Import took 0.078475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_16.asset
+  artifactKey: Guid(ee8b8a3b6b8535b4bbf6fbb473bfea6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_16.asset using Guid(ee8b8a3b6b8535b4bbf6fbb473bfea6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e526f7d5259e0b0d96900a69c995d1') in 0.085625 seconds 
+  Import took 0.102627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_17.asset
+  artifactKey: Guid(28b7c1bc92581434c83646554b648e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_17.asset using Guid(28b7c1bc92581434c83646554b648e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d627fae659deff8e20e3a95e94df713') in 0.048495 seconds 
+  Import took 0.140630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_69.asset
+  artifactKey: Guid(078f192ab29c9794aa52aafadea68ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_69.asset using Guid(078f192ab29c9794aa52aafadea68ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995665ef6fca2aa95b80de3cc880412b') in 0.031201 seconds 
+  Import took 0.039182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_2.asset
+  artifactKey: Guid(b01455278aa9a84478ed594754bcec49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_2.asset using Guid(b01455278aa9a84478ed594754bcec49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13c11fa4188a21267989b8c4a9e8555') in 0.075531 seconds 
+  Import took 0.082370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_39.asset
+  artifactKey: Guid(ae1bee1eca28e4b4ab8180087605be4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_39.asset using Guid(ae1bee1eca28e4b4ab8180087605be4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d331e49d4db1d893921b3165d4415f9') in 0.034279 seconds 
+  Import took 0.041098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_47.asset
+  artifactKey: Guid(45321ea9a3a5c434c9a3514c0e729743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_47.asset using Guid(45321ea9a3a5c434c9a3514c0e729743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e620d54b21d4e72fddecb33a64b667a') in 0.043621 seconds 
+  Import took 0.050672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_37.asset
+  artifactKey: Guid(9049e338820433942b6a5eee5561eb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_37.asset using Guid(9049e338820433942b6a5eee5561eb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f2de111fe9c2c026afcf6f7343a96b') in 0.034190 seconds 
+  Import took 0.043008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_67.asset
+  artifactKey: Guid(b7bfe239620177c4fa14dee142eae4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_67.asset using Guid(b7bfe239620177c4fa14dee142eae4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b5c09135a7b2989eea3c3ee6415e38') in 0.032722 seconds 
+  Import took 0.038005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_8.asset
+  artifactKey: Guid(459bcd64a7e7fb846a515afac6d40cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_8.asset using Guid(459bcd64a7e7fb846a515afac6d40cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521150ed65e708a65905cf431e400316') in 0.040416 seconds 
+  Import took 0.049538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000867 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_71.asset
+  artifactKey: Guid(1e4edb52a72f1fa44a081ed19e522940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_71.asset using Guid(1e4edb52a72f1fa44a081ed19e522940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafa44234bd495ea3b002b7b9bc113fa') in 0.036713 seconds 
+  Import took 0.047060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000855 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_48.asset
+  artifactKey: Guid(3ba8655eba3fffe43b0039f091ac63ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_48.asset using Guid(3ba8655eba3fffe43b0039f091ac63ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317bdb68dbbdb11e121a57ffb5ad397c') in 0.041075 seconds 
+  Import took 0.053357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002223 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_40.asset
+  artifactKey: Guid(c98924bf79bd71e48be7cedd781a1f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_40.asset using Guid(c98924bf79bd71e48be7cedd781a1f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c97672e0f4ae8f8e7eec923316350f9') in 0.038214 seconds 
+  Import took 0.044699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_42.asset
+  artifactKey: Guid(8175838deba51a9418fd5d2f21b623f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_42.asset using Guid(8175838deba51a9418fd5d2f21b623f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b073318bce4e79afbb383beb12b2b4') in 0.036784 seconds 
+  Import took 0.124201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_57.asset
+  artifactKey: Guid(6269c926a83970543bec61ad51be9517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_57.asset using Guid(6269c926a83970543bec61ad51be9517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2053e64c396a41c031760e5245020b') in 0.035129 seconds 
+  Import took 0.045990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000756 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_80.asset
+  artifactKey: Guid(92521ca1683a4c2439d04cb606292181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_80.asset using Guid(92521ca1683a4c2439d04cb606292181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05934bb48a2ae97bc21b2daa54a41a7e') in 0.032060 seconds 
+  Import took 0.042723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_58.asset
+  artifactKey: Guid(abc7f507a1325d14f9d8d4b34ebe79c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_58.asset using Guid(abc7f507a1325d14f9d8d4b34ebe79c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445f818363fe4c5df658e2bf2dc22c8e') in 0.033180 seconds 
+  Import took 0.043501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_21.asset
+  artifactKey: Guid(4d7324d4953d8184f92f50ad347fdc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_21.asset using Guid(4d7324d4953d8184f92f50ad347fdc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd5bfbbff59ff74fc8aef0081780bd7') in 0.073045 seconds 
+  Import took 0.085980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_13.asset
+  artifactKey: Guid(b568c6ea693410f4aa0b506839a44d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_13.asset using Guid(b568c6ea693410f4aa0b506839a44d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55be04538bf817c14fbf88664a48ead8') in 0.032456 seconds 
+  Import took 0.046232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_35.asset
+  artifactKey: Guid(6ae434d7d20538840894e19a91ad3f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_35.asset using Guid(6ae434d7d20538840894e19a91ad3f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adbdf2660ae7abaf0e1628a92bd44fe') in 0.043076 seconds 
+  Import took 0.053398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000719 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_55.asset
+  artifactKey: Guid(bd19c3ef00660e04db68524219a4d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_55.asset using Guid(bd19c3ef00660e04db68524219a4d436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca41fe67b9e3d4cb526aae224ed21f11') in 0.043221 seconds 
+  Import took 0.049784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_33.asset
+  artifactKey: Guid(6da0ba066115c2d4d8fd38d80fe800ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_33.asset using Guid(6da0ba066115c2d4d8fd38d80fe800ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25c7aab9dfd854ed5c4a5104e0211bb') in 0.030996 seconds 
+  Import took 0.070723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_65.asset
+  artifactKey: Guid(db656f98e456cea4590cc9082a375f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_65.asset using Guid(db656f98e456cea4590cc9082a375f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd695e5060762043011d20e88920e1a15') in 0.034469 seconds 
+  Import took 0.041229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000888 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_79.asset
+  artifactKey: Guid(0d7bde337887c6c438c9d784f72451f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_79.asset using Guid(0d7bde337887c6c438c9d784f72451f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0681d6e5a525b92adfc2df2b3049c4a6') in 0.032813 seconds 
+  Import took 0.042677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_45.asset
+  artifactKey: Guid(d23c00564fa796248af709b3c0c2022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_45.asset using Guid(d23c00564fa796248af709b3c0c2022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3321a771c194ad51d72da79f1eca07') in 0.041143 seconds 
+  Import took 0.052669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_49.asset
+  artifactKey: Guid(7fcdc671f077f9043949e7bad1739d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_49.asset using Guid(7fcdc671f077f9043949e7bad1739d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfd8baf07606a6a20c6c067ec4b1218') in 0.111770 seconds 
+  Import took 0.118350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001054 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_18.asset
+  artifactKey: Guid(8f98566b76a1da144b65743019f9017f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_18.asset using Guid(8f98566b76a1da144b65743019f9017f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1d7988c4ff734a55d7418e7c24e85d') in 0.033273 seconds 
+  Import took 0.043629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_6.asset
+  artifactKey: Guid(855ca36f0d2016243b5ab0e0d865db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_6.asset using Guid(855ca36f0d2016243b5ab0e0d865db31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b53d90bcbdd8cc6ec4ecabe50541957') in 0.024598 seconds 
+  Import took 0.033384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000925 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_68.asset
+  artifactKey: Guid(d83e79bac3d8e5246bc225d80434a00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_68.asset using Guid(d83e79bac3d8e5246bc225d80434a00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de95b65b9082cc306049ed3ddbe06722') in 0.053379 seconds 
+  Import took 0.063760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_9.asset
+  artifactKey: Guid(059a20a1ce9004b47a6493bd999aa1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_9.asset using Guid(059a20a1ce9004b47a6493bd999aa1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19f2ccb555f4ac1a4b3fc941ce3f12c') in 0.032332 seconds 
+  Import took 0.040549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001659 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_28.asset
+  artifactKey: Guid(81e96222be4b3fe4d8c1ab9749215dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_28.asset using Guid(81e96222be4b3fe4d8c1ab9749215dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622774a4c21c9876f875450bffb686d4') in 0.050024 seconds 
+  Import took 0.057705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000727 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_1.asset
+  artifactKey: Guid(b9c19fa0b35d6ec4380222314b0d029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_1.asset using Guid(b9c19fa0b35d6ec4380222314b0d029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cb22c1bb2023494ee7d0c0405e1c0f') in 0.043379 seconds 
+  Import took 0.053047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000788 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_3.asset
+  artifactKey: Guid(6602125495b5db44093bbeeab2238def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_3.asset using Guid(6602125495b5db44093bbeeab2238def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e8c25eb28272c4b448a544f703acc9') in 0.033687 seconds 
+  Import took 0.042814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_70.asset
+  artifactKey: Guid(fe292f0f8fd23184788bd9bcefac0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_70.asset using Guid(fe292f0f8fd23184788bd9bcefac0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f5d4698cd77c209f31cf44e3ecc900') in 0.044970 seconds 
+  Import took 0.053004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_56.asset
+  artifactKey: Guid(c18a6c680c722c6409f22b44a2f69074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_56.asset using Guid(c18a6c680c722c6409f22b44a2f69074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53787d8513573ee409a263047e70ca10') in 0.037755 seconds 
+  Import took 0.046756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_73.asset
+  artifactKey: Guid(6bd05915e402f354fa51bf717186cfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_73.asset using Guid(6bd05915e402f354fa51bf717186cfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8ce450f57cbb681538991710a8f48a') in 0.027054 seconds 
+  Import took 0.035072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_52.asset
+  artifactKey: Guid(5802deb4982222245a689f9c69c58c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_52.asset using Guid(5802deb4982222245a689f9c69c58c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9429fb3d4df819b8d3bd75f9a14ef51e') in 0.115022 seconds 
+  Import took 0.124674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_19.asset
+  artifactKey: Guid(743a4ec5f109fa14d92be28ee4e5326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_19.asset using Guid(743a4ec5f109fa14d92be28ee4e5326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0517eebca17dae77f63482b99f18739a') in 0.037864 seconds 
+  Import took 0.046515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000723 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_43.asset
+  artifactKey: Guid(c902e1a76c7840b429e3f558b29b30f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_43.asset using Guid(c902e1a76c7840b429e3f558b29b30f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e321e0bb46273ded63a06f2319b0ab92') in 0.046704 seconds 
+  Import took 0.054605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002615 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_26.asset
+  artifactKey: Guid(964e318c1cd1b334f931ca01839dc2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_26.asset using Guid(964e318c1cd1b334f931ca01839dc2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188dc1d66abe764d3ade114f5b189397') in 0.050388 seconds 
+  Import took 0.058520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001813 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_75.asset
+  artifactKey: Guid(f0db6cfdfa865cd41a3c27ead12912a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_75.asset using Guid(f0db6cfdfa865cd41a3c27ead12912a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532f962fe7bf3983f7d588dc100879ec') in 0.059732 seconds 
+  Import took 0.069996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_44.asset
+  artifactKey: Guid(5cd0c9cabfd564249a7870c5cdf3e2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_44.asset using Guid(5cd0c9cabfd564249a7870c5cdf3e2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ed6b340fbbb69a665712bc7ad4b45f') in 0.026169 seconds 
+  Import took 0.034870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001124 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_22.asset
+  artifactKey: Guid(ef58df3487e20614aa02c8c3b329b61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_22.asset using Guid(ef58df3487e20614aa02c8c3b329b61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5821618d793dd5ed2bfc0c9f46653505') in 0.042197 seconds 
+  Import took 0.050318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000680 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_60.asset
+  artifactKey: Guid(fd3c78bea33fcc847a19a1119ec505cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_60.asset using Guid(fd3c78bea33fcc847a19a1119ec505cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2b2b6c9a5ec2d7fe417a82b7c4fdba') in 0.037685 seconds 
+  Import took 0.046459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_20.asset
+  artifactKey: Guid(93e0b789d8c217544b43955bb9511ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_20.asset using Guid(93e0b789d8c217544b43955bb9511ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b080819fa81e6cc456378422bee200d8') in 0.041257 seconds 
+  Import took 0.053409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_7.asset
+  artifactKey: Guid(512401aae2b73884c83a6e095f81e47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_7.asset using Guid(512401aae2b73884c83a6e095f81e47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed39f9783b4a5fd1c0f7d81955810bc0') in 0.033023 seconds 
+  Import took 0.041045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002390 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_25.asset
+  artifactKey: Guid(cc4e5a2d231a2f74ca45663e8e56537d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_25.asset using Guid(cc4e5a2d231a2f74ca45663e8e56537d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be13d7d44e89c30b40ccced72ab939cf') in 0.033277 seconds 
+  Import took 0.044225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001078 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_51.asset
+  artifactKey: Guid(effa01b4886a6d940b5339e8032a48ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_51.asset using Guid(effa01b4886a6d940b5339e8032a48ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15ed18ae2283f5b12e8fd543d922d88') in 0.031786 seconds 
+  Import took 0.107735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000842 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_74.asset
+  artifactKey: Guid(c7958382313112e40ab7c3f82dabfffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_74.asset using Guid(c7958382313112e40ab7c3f82dabfffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0522ab6ced7aec6eb75dde0cd112a71') in 0.035493 seconds 
+  Import took 0.048025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_77.asset
+  artifactKey: Guid(fc36357e4d9a26d40afd2c16f5bc1714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_77.asset using Guid(fc36357e4d9a26d40afd2c16f5bc1714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4cf430ed43511979a610e11254ecdd') in 0.042539 seconds 
+  Import took 0.052840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000818 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_4.asset
+  artifactKey: Guid(aef7110561c0a5e4e9cbf297ea4d9fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_4.asset using Guid(aef7110561c0a5e4e9cbf297ea4d9fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7926d7ba805abcf1480e11da8cc9ba') in 0.044263 seconds 
+  Import took 0.052388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000839 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_5.asset
+  artifactKey: Guid(dca00dbd85975ed478d81743b07d746d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_5.asset using Guid(dca00dbd85975ed478d81743b07d746d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0f38990a6d7dfb57946cf8b3af6f5a') in 0.035226 seconds 
+  Import took 0.044197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000860 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_63.asset
+  artifactKey: Guid(a5fee2934e8bc2248ae39db4d0090c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_63.asset using Guid(a5fee2934e8bc2248ae39db4d0090c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ed72e887876a2e90d44a94c0a67b6f') in 0.032196 seconds 
+  Import took 0.046178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000757 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_23.asset
+  artifactKey: Guid(bafc9a07d04ff584dae0b6bf8cbdf957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_23.asset using Guid(bafc9a07d04ff584dae0b6bf8cbdf957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da8f1ad041e09ac64bad32d687d8c3f') in 0.040456 seconds 
+  Import took 0.050495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_62.asset
+  artifactKey: Guid(17f1bc787a790a346a4e7a2ac2d36214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_62.asset using Guid(17f1bc787a790a346a4e7a2ac2d36214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7e5d67cb7276a979fd8d3619756467') in 0.035972 seconds 
+  Import took 0.045125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_24.asset
+  artifactKey: Guid(0aa95824c3f066544afbe417fdb60ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_24.asset using Guid(0aa95824c3f066544afbe417fdb60ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82dc152075dfe4bb6c4c1b197a15857') in 0.035666 seconds 
+  Import took 0.044859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_27.asset
+  artifactKey: Guid(e57d9fc04a975c14cb5705154de204e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_27.asset using Guid(e57d9fc04a975c14cb5705154de204e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e660f29e038a1df38447007215bb71d') in 0.035928 seconds 
+  Import took 0.048277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000786 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_29.asset
+  artifactKey: Guid(b9be55f77aff7a644828bec9f698932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_29.asset using Guid(b9be55f77aff7a644828bec9f698932d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303a943e447a8d28d34b57a1f95fe662') in 0.037525 seconds 
+  Import took 0.045928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002844 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_53.asset
+  artifactKey: Guid(4fba8a0c735fc164bb835505dec3b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_53.asset using Guid(4fba8a0c735fc164bb835505dec3b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276fae312256504ebe5e0f297105a23f') in 0.037636 seconds 
+  Import took 0.047735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002409 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_10.asset
+  artifactKey: Guid(21cadfa27f99eb94d8fdd414e4cdc848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_10.asset using Guid(21cadfa27f99eb94d8fdd414e4cdc848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08db7e15baaf0fe5fff32af9590e558b') in 0.038303 seconds 
+  Import took 0.045950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_11.asset
+  artifactKey: Guid(bc249fc4462f3324faa7d3b15f8fec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_11.asset using Guid(bc249fc4462f3324faa7d3b15f8fec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63676b46092294caf1c3d05d35e9e89') in 0.042833 seconds 
+  Import took 0.052668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000883 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_30.asset
+  artifactKey: Guid(ff541e14d31b02a40b062c9c9dc691c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_30.asset using Guid(ff541e14d31b02a40b062c9c9dc691c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8967a350862baa7b55874a8e0136e6') in 0.037162 seconds 
+  Import took 0.047796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_11.asset
+  artifactKey: Guid(bc249fc4462f3324faa7d3b15f8fec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_11.asset using Guid(bc249fc4462f3324faa7d3b15f8fec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63676b46092294caf1c3d05d35e9e89') in 0.034954 seconds 
+  Import took 0.045720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001669 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_81.asset
+  artifactKey: Guid(2d69dcbdd7f188344a3dc6ae5cfc3954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_81.asset using Guid(2d69dcbdd7f188344a3dc6ae5cfc3954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19984fa834e5f95ee827d8e65bd31361') in 0.045957 seconds 
+  Import took 0.086351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001331 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_54.asset
+  artifactKey: Guid(62d7ef7229a2931429497b8dad90a97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_54.asset using Guid(62d7ef7229a2931429497b8dad90a97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8544c6146cbf873f9dc5200433ebaff6') in 0.030161 seconds 
+  Import took 0.038271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_72.asset
+  artifactKey: Guid(a958b2cb9b0ea92409d575333c99eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_72.asset using Guid(a958b2cb9b0ea92409d575333c99eb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e94ec4cb526f95121949e21ae1bc65') in 0.041384 seconds 
+  Import took 0.049850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_64.asset
+  artifactKey: Guid(3dc020482fc89fc45a22a9caccd3c951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_64.asset using Guid(3dc020482fc89fc45a22a9caccd3c951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb8cf2a19d5af9185eb29c8cc7f0b16') in 0.031180 seconds 
+  Import took 0.041057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_66.asset
+  artifactKey: Guid(bb0c278a97a09614985dcb2452b8507e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_66.asset using Guid(bb0c278a97a09614985dcb2452b8507e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bf2087f03964e50b6eb39f2474106b') in 0.033820 seconds 
+  Import took 0.041253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_59.asset
+  artifactKey: Guid(4512c759baa283a4787f17d4c3e7ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_59.asset using Guid(4512c759baa283a4787f17d4c3e7ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27285118de3f3766a5552b9bee4cd95') in 0.032310 seconds 
+  Import took 0.042680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_32.asset
+  artifactKey: Guid(81e30a25da3d438429cc045bde21cf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_32.asset using Guid(81e30a25da3d438429cc045bde21cf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0746960e6cacdf4f082cbe4063884f1') in 0.034288 seconds 
+  Import took 0.040548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_31.asset
+  artifactKey: Guid(b5e65883d78aaa248bdfcced1026f226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_31.asset using Guid(b5e65883d78aaa248bdfcced1026f226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd568019e48a8b72dbd507a3db6248e5') in 0.115326 seconds 
+  Import took 0.270724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_14.asset
+  artifactKey: Guid(82a1a56a8c5ea3240a9ab827798cf418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_14.asset using Guid(82a1a56a8c5ea3240a9ab827798cf418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bf4047d14e66496daa20535f99301f') in 0.047308 seconds 
+  Import took 0.054877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 303.266494 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_82.asset
+  artifactKey: Guid(60c54a1210528e44ebcd6e87d18f8c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_82.asset using Guid(60c54a1210528e44ebcd6e87d18f8c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1ab69f9d4fd7a1183d1a8574dab0e4') in 0.274954 seconds 
+  Import took 0.283401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000698 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_93.asset
+  artifactKey: Guid(d2d298049cda7dd41897de24e6d61cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_93.asset using Guid(d2d298049cda7dd41897de24e6d61cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b73038a92e134ca0cdf0f2fde27786') in 0.117595 seconds 
+  Import took 0.126300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_87.asset
+  artifactKey: Guid(cefe1f7f65dac974f861d30b754660ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_87.asset using Guid(cefe1f7f65dac974f861d30b754660ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebdf1d7470353136013cb6d748c6d75') in 0.064122 seconds 
+  Import took 0.070169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000743 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_95.asset
+  artifactKey: Guid(f19d4b6355517d34b9e5fb4196782e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_95.asset using Guid(f19d4b6355517d34b9e5fb4196782e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a991fb22102d520aa043e6b22cc5c7c7') in 0.086809 seconds 
+  Import took 0.123743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_86.asset
+  artifactKey: Guid(0afb39000857a29428c8e71fc4f7005d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_86.asset using Guid(0afb39000857a29428c8e71fc4f7005d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca86d6740ab500f5b2d7e1ad7c710ab9') in 0.052838 seconds 
+  Import took 0.064576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000792 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_135.asset
+  artifactKey: Guid(9d3b086bf026c534a80c417262ec35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_135.asset using Guid(9d3b086bf026c534a80c417262ec35db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffbf5297d77510a7343f43cdd4173b6') in 0.050990 seconds 
+  Import took 0.104168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_152.asset
+  artifactKey: Guid(9c8e3492497cf13409f8ee9a33083b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_152.asset using Guid(9c8e3492497cf13409f8ee9a33083b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d55118876a8c0e3b0bcd5d1acb841c') in 0.054816 seconds 
+  Import took 0.098936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_122.asset
+  artifactKey: Guid(83d955525a4fa4440b0587f731ae90c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_122.asset using Guid(83d955525a4fa4440b0587f731ae90c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222917bbbab9fb775cd67d36e3291e61') in 0.708235 seconds 
+  Import took 1.076429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000795 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_144.asset
+  artifactKey: Guid(f0218a9b9a6b69f4dad65f2f9e3e12f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_144.asset using Guid(f0218a9b9a6b69f4dad65f2f9e3e12f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dc42cfb30b08e301a5b3489a4bd805') in 0.151980 seconds 
+  Import took 0.242172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_132.asset
+  artifactKey: Guid(ad414a2bd82234b459d4db643b258c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_132.asset using Guid(ad414a2bd82234b459d4db643b258c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fc080dbdf7f2d58f6c2127aab8685f') in 0.052478 seconds 
+  Import took 0.230932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_107.asset
+  artifactKey: Guid(4d83a0b0f265fbb49804fbedb841a993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_107.asset using Guid(4d83a0b0f265fbb49804fbedb841a993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c623588048837198dbfa2dad38d424de') in 0.129302 seconds 
+  Import took 0.139377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_156.asset
+  artifactKey: Guid(d1c76a2672394364aa2adc637e2caf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_156.asset using Guid(d1c76a2672394364aa2adc637e2caf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a064573b921efea638558bc802f0c4') in 0.082284 seconds 
+  Import took 0.095842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_96.asset
+  artifactKey: Guid(fb63d7ad661aa63478825510e6073ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_96.asset using Guid(fb63d7ad661aa63478825510e6073ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fad3415299271082bd8bc1ff9d103d') in 0.193653 seconds 
+  Import took 0.203378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_159.asset
+  artifactKey: Guid(b802f6e27a6199d47885624385259c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_159.asset using Guid(b802f6e27a6199d47885624385259c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88eaa72be92d0a9f445e1e38a3427017') in 0.087287 seconds 
+  Import took 0.096489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_97.asset
+  artifactKey: Guid(9c09eb243b7068c4d874b2445925a295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_97.asset using Guid(9c09eb243b7068c4d874b2445925a295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88f890c764f8cd0a9dddacccdd55af0') in 0.049096 seconds 
+  Import took 0.056951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_115.asset
+  artifactKey: Guid(1fda0a5309073464e83232133c6432df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_115.asset using Guid(1fda0a5309073464e83232133c6432df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7224f293b2e6134c59a52cac94787b') in 0.078328 seconds 
+  Import took 0.102715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_150.asset
+  artifactKey: Guid(112952420975754479613098c4d9797b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_150.asset using Guid(112952420975754479613098c4d9797b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8986fcecb74622878ceedfcbcb51bec') in 0.076688 seconds 
+  Import took 0.082534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_149.asset
+  artifactKey: Guid(6ca3ace8263937243909794901c4ce43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_149.asset using Guid(6ca3ace8263937243909794901c4ce43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d0de7f57a9bd4f4f189564eda49cd3') in 0.068834 seconds 
+  Import took 0.074607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_108.asset
+  artifactKey: Guid(d4d0712651a778b48979ef5c83fb395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_108.asset using Guid(d4d0712651a778b48979ef5c83fb395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb32565e13613d989de9a48ca39d0434') in 0.076117 seconds 
+  Import took 0.083473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000964 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_142.asset
+  artifactKey: Guid(6c3453112b70ccf4897745ec61f66465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_142.asset using Guid(6c3453112b70ccf4897745ec61f66465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafab940a7b4d8c6805d0cf541410b56') in 0.083665 seconds 
+  Import took 0.090298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_131.asset
+  artifactKey: Guid(36f2cf34ae702b04ba2d58d6dd3c4010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_131.asset using Guid(36f2cf34ae702b04ba2d58d6dd3c4010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a889f6cc5ef345a7921c81a76bd9099c') in 0.032804 seconds 
+  Import took 0.094750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_121.asset
+  artifactKey: Guid(e688ba1f085c7b0438da7d318b6a8294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_121.asset using Guid(e688ba1f085c7b0438da7d318b6a8294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7509f38d8b1ad57aeda6c12bb7338fc4') in 0.054209 seconds 
+  Import took 0.066725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_130.asset
+  artifactKey: Guid(077fcc7ad90030643b4a5961b7e40b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_130.asset using Guid(077fcc7ad90030643b4a5961b7e40b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97819a7a3b636c2f5fa6f92d9dc6af69') in 0.093942 seconds 
+  Import took 0.100703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_141.asset
+  artifactKey: Guid(f6c4f6693f825c0458a4590f8f812ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_141.asset using Guid(f6c4f6693f825c0458a4590f8f812ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ca0f35ee18cec7ef7deeaff81c0a34') in 0.080929 seconds 
+  Import took 0.120938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_127.asset
+  artifactKey: Guid(33f6e7a76295fcc4d9416c47dbb82a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_127.asset using Guid(33f6e7a76295fcc4d9416c47dbb82a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0439ac0b53555a93c3b908b5ac92e7a5') in 0.053362 seconds 
+  Import took 0.083315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_129.asset
+  artifactKey: Guid(0dc1f56599fbfd2459458604353dc432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_129.asset using Guid(0dc1f56599fbfd2459458604353dc432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251c9d29e1abb6830eb1949675520be2') in 0.059020 seconds 
+  Import took 0.064754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_100.asset
+  artifactKey: Guid(b4c690d1009a06a42b60be1adf188f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_100.asset using Guid(b4c690d1009a06a42b60be1adf188f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95310a391407d2cd52942ec852cdca8c') in 0.052032 seconds 
+  Import took 0.113684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_147.asset
+  artifactKey: Guid(408da006be7dab94cabefcb7874a3cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_147.asset using Guid(408da006be7dab94cabefcb7874a3cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243a4aac9b1cbf2b5f299716c072c681') in 0.051838 seconds 
+  Import took 0.057550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_124.asset
+  artifactKey: Guid(bea60e07a7ff1574a8dff95afa95fcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_124.asset using Guid(bea60e07a7ff1574a8dff95afa95fcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd784371706c4cd163558e812de5029ce') in 0.056467 seconds 
+  Import took 0.062824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_106.asset
+  artifactKey: Guid(a4beaf2cc87c1a447ba81772d200599c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_106.asset using Guid(a4beaf2cc87c1a447ba81772d200599c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118a2249f4806f2ca69f55effd122a1b') in 0.088869 seconds 
+  Import took 0.133022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000777 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_101.asset
+  artifactKey: Guid(20cb5b7ca3bcd944481d27a3196041f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_101.asset using Guid(20cb5b7ca3bcd944481d27a3196041f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0106c35b09961ce8937d1fdc0a7e33f7') in 0.049714 seconds 
+  Import took 0.061352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000689 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_128.asset
+  artifactKey: Guid(557eb9c24c8dc624aba040fba0f01a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_128.asset using Guid(557eb9c24c8dc624aba040fba0f01a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545716a0643b177a32015a39f5b2856a') in 0.048555 seconds 
+  Import took 0.058008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_151.asset
+  artifactKey: Guid(2683782c0a62e98489e0d428e80f9277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_151.asset using Guid(2683782c0a62e98489e0d428e80f9277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd993309264ea30d6ec59474926218e0') in 0.108559 seconds 
+  Import took 0.164156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_134.asset
+  artifactKey: Guid(ae98796f35dbf22449dcf197948888a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_134.asset using Guid(ae98796f35dbf22449dcf197948888a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07dee8bda72f7d31e556cb41d992f6c') in 0.103534 seconds 
+  Import took 0.111063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_157.asset
+  artifactKey: Guid(ba0d457935e762547b16b8686bdd06b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_157.asset using Guid(ba0d457935e762547b16b8686bdd06b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720e160f7c64ba0a4995ac67bcbd5fe7') in 0.067505 seconds 
+  Import took 0.073905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Spritesheets/New Palette.prefab
+  artifactKey: Guid(c40b3d58ea4c3bc48bb596e8bf2b5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/New Palette.prefab using Guid(c40b3d58ea4c3bc48bb596e8bf2b5b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f3121f6439a495dfbecccaacd125b9') in 0.194708 seconds 
+  Import took 0.201822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_99.asset
+  artifactKey: Guid(d9c7449ca1769124b8d53a19cdf896d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_99.asset using Guid(d9c7449ca1769124b8d53a19cdf896d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39066d6f771aea3c138759aee2e99daf') in 0.055163 seconds 
+  Import took 0.061385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000817 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_126.asset
+  artifactKey: Guid(de129af3cf39d7f40a0108ee0838b9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_126.asset using Guid(de129af3cf39d7f40a0108ee0838b9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cbf67d72942f97adb85b762bf41bbf') in 0.058838 seconds 
+  Import took 0.066010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001266 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_111.asset
+  artifactKey: Guid(ee637ea70badc9a4fa891a13cfad5517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_111.asset using Guid(ee637ea70badc9a4fa891a13cfad5517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83df2f77e470484e6f2c5c097d5a588a') in 0.050391 seconds 
+  Import took 0.056659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_140.asset
+  artifactKey: Guid(739490b9134ec944aa9e1723a052bf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_140.asset using Guid(739490b9134ec944aa9e1723a052bf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9536aa8733a785299dbbfde083487c75') in 0.078600 seconds 
+  Import took 0.086957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_85.asset
+  artifactKey: Guid(598734c8967d2f84fbdb0b2cdadd0ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_85.asset using Guid(598734c8967d2f84fbdb0b2cdadd0ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f5f13df0449440fa1cc71e91d9b7b3') in 0.069161 seconds 
+  Import took 0.092601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_113.asset
+  artifactKey: Guid(245aa6d408641284db71472a52715f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_113.asset using Guid(245aa6d408641284db71472a52715f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ff40a29a4c0fe9ef41b84cef53a5dd') in 0.083797 seconds 
+  Import took 0.089944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_104.asset
+  artifactKey: Guid(a783b584c8aa27a4992132aa96edd0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_104.asset using Guid(a783b584c8aa27a4992132aa96edd0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcae8fbc0c03efdd625dda4b592e9d2e') in 0.045441 seconds 
+  Import took 0.055631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000852 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_153.asset
+  artifactKey: Guid(6e5c0d0888d0f3d4a96f08992a6d0ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_153.asset using Guid(6e5c0d0888d0f3d4a96f08992a6d0ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2fd6175ce0ef31c01a28a27674491a') in 0.098325 seconds 
+  Import took 0.129139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001414 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_117.asset
+  artifactKey: Guid(d1d89fd9fb7a42e438b543ff2f22bd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_117.asset using Guid(d1d89fd9fb7a42e438b543ff2f22bd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0316a94dfdc599c4e83da134515976e0') in 0.085389 seconds 
+  Import took 0.094621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_155.asset
+  artifactKey: Guid(ccc512fa10968654680e4630d48c9105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_155.asset using Guid(ccc512fa10968654680e4630d48c9105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18577ac75a909a5c33fe97fb4c5562b0') in 0.061395 seconds 
+  Import took 0.075985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000820 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_109.asset
+  artifactKey: Guid(6daf7c478fbe2014897e5f7779b116c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_109.asset using Guid(6daf7c478fbe2014897e5f7779b116c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40bec6ffc57f813d8c2cd5f14df0db7') in 0.178853 seconds 
+  Import took 0.186992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_145.asset
+  artifactKey: Guid(e75b8b1adf76d1a4baeac65efb5a4aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_145.asset using Guid(e75b8b1adf76d1a4baeac65efb5a4aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efe735b1d8fe7c8d3edda6c43f10862') in 0.071627 seconds 
+  Import took 0.119572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000738 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_114.asset
+  artifactKey: Guid(93457df0f75f3ef499a7ad67e9215cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_114.asset using Guid(93457df0f75f3ef499a7ad67e9215cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460fcb119c9482db4f1a531918c35056') in 0.068497 seconds 
+  Import took 0.075072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_92.asset
+  artifactKey: Guid(05b4ba05d13d52d4f8b407a9a2a278b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_92.asset using Guid(05b4ba05d13d52d4f8b407a9a2a278b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cee7f1adf3c4583532136531715171') in 0.064460 seconds 
+  Import took 0.075577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_125.asset
+  artifactKey: Guid(65488739957e5a047a58d1fd5ed19e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_125.asset using Guid(65488739957e5a047a58d1fd5ed19e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75c767911d31ec612e8a4d34875d16b') in 0.072862 seconds 
+  Import took 0.079499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_137.asset
+  artifactKey: Guid(4dd8a36b65b14864ba00b0a34c3fec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_137.asset using Guid(4dd8a36b65b14864ba00b0a34c3fec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3cdfe1ae837ccb33cb4e78049ac345') in 0.641201 seconds 
+  Import took 0.648766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_139.asset
+  artifactKey: Guid(92cd5abca650a2b4f8eea55a3e4954f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_139.asset using Guid(92cd5abca650a2b4f8eea55a3e4954f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7b7ca5ca7005295a78874ba7b054c3') in 0.131878 seconds 
+  Import took 0.140291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_102.asset
+  artifactKey: Guid(e845e066c76504a4383904b0c59652c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_102.asset using Guid(e845e066c76504a4383904b0c59652c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2422a1e8ef61fc604d11f2a52ccc6676') in 0.125413 seconds 
+  Import took 0.131136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_112.asset
+  artifactKey: Guid(77a93dba46a72ef46ac87357ad335aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_112.asset using Guid(77a93dba46a72ef46ac87357ad335aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa5a5eb4f7d537e29c21b4779169380') in 0.045736 seconds 
+  Import took 0.053525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_123.asset
+  artifactKey: Guid(d09c1b8a99d8da34c935230ca1d4bc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_123.asset using Guid(d09c1b8a99d8da34c935230ca1d4bc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f0f5cc2726df68d25fbc82f21156a2') in 0.045440 seconds 
+  Import took 0.056665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_98.asset
+  artifactKey: Guid(76abf00f4df8afd47b12dcf6479c8912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_98.asset using Guid(76abf00f4df8afd47b12dcf6479c8912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cd573e166227e6e5cace73d2521a25') in 0.065434 seconds 
+  Import took 0.076260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_84.asset
+  artifactKey: Guid(8cc3e58b9f01ec34e86004a6f58a7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_84.asset using Guid(8cc3e58b9f01ec34e86004a6f58a7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5c9907a5a23abb4c848319af2e4546') in 0.062393 seconds 
+  Import took 0.079828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_94.asset
+  artifactKey: Guid(9435ab10504233845ae4869041a10cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_94.asset using Guid(9435ab10504233845ae4869041a10cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dff282b3c6c23f3c9c4a1a56519b655') in 0.045846 seconds 
+  Import took 0.105323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_103.asset
+  artifactKey: Guid(7c2e9720a4e3121438ec02acef423275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_103.asset using Guid(7c2e9720a4e3121438ec02acef423275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d9afaabb6719ad55a1a16069ef8074') in 0.060142 seconds 
+  Import took 0.067437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_136.asset
+  artifactKey: Guid(4c4b5139a441bd3498ff4de797ae9d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_136.asset using Guid(4c4b5139a441bd3498ff4de797ae9d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a62fa5c5e792116b21a7e86eb08c74') in 0.175949 seconds 
+  Import took 0.185271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001486 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_158.asset
+  artifactKey: Guid(db209d473ea13714d8907152a55f01aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_158.asset using Guid(db209d473ea13714d8907152a55f01aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bbeb755faa7e0c8f4992b85d5add23') in 0.051278 seconds 
+  Import took 0.058218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_110.asset
+  artifactKey: Guid(3e5976dd5a36928439b9a6de93fda918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_110.asset using Guid(3e5976dd5a36928439b9a6de93fda918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772c4d11ee6ad0b8731737fbf5b3f7f4') in 0.047934 seconds 
+  Import took 0.054881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001283 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_120.asset
+  artifactKey: Guid(8cdf2a6c13f2bbc459f825213086323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_120.asset using Guid(8cdf2a6c13f2bbc459f825213086323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09975e38a7df6e0bbba8e8c26c347c9') in 0.052085 seconds 
+  Import took 0.058812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_148.asset
+  artifactKey: Guid(7bb7d2bf9f33b134ea70d1529a5f855f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_148.asset using Guid(7bb7d2bf9f33b134ea70d1529a5f855f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4e6bee16703cd5a941b6cef02cb678') in 0.048815 seconds 
+  Import took 0.055651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001432 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_154.asset
+  artifactKey: Guid(4384c87baa9684e47ba275f3cbe1711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_154.asset using Guid(4384c87baa9684e47ba275f3cbe1711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9409958e183a7ecbc27204af774e432') in 0.053597 seconds 
+  Import took 0.094072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_91.asset
+  artifactKey: Guid(a8ca5e79537bfee418308162a8eab03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_91.asset using Guid(a8ca5e79537bfee418308162a8eab03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0565fbafb0fe2e05115eda5d2bea4bb5') in 0.051260 seconds 
+  Import took 0.060105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_146.asset
+  artifactKey: Guid(5a3254f534e8e3a43b8950c4ba0795bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_146.asset using Guid(5a3254f534e8e3a43b8950c4ba0795bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f03e9839290461b7cb19770a1992b8') in 0.047477 seconds 
+  Import took 0.053876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_119.asset
+  artifactKey: Guid(2b1267e11253df54d8a215534dc95768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_119.asset using Guid(2b1267e11253df54d8a215534dc95768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7d7a1984f76a43314a2d2941c94392') in 0.082341 seconds 
+  Import took 0.092028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_89.asset
+  artifactKey: Guid(94d786b969137a14d9e13a8fdaad2fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_89.asset using Guid(94d786b969137a14d9e13a8fdaad2fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b0fd004dc8c2d8630aeca6a0b0ae68') in 0.056827 seconds 
+  Import took 0.066618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_90.asset
+  artifactKey: Guid(05b6cfd107beac047bfaef8ef56b2dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_90.asset using Guid(05b6cfd107beac047bfaef8ef56b2dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753608830a9ab00a9b8faad747cfb756') in 0.047650 seconds 
+  Import took 0.058262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_143.asset
+  artifactKey: Guid(2ce2b0c239de3294084641339279cb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_143.asset using Guid(2ce2b0c239de3294084641339279cb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840e1c8c548d910ccd75f53752e70cc3') in 0.043985 seconds 
+  Import took 0.055603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001183 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_116.asset
+  artifactKey: Guid(c0d38cc184ce42a4bae5a6822290fd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_116.asset using Guid(c0d38cc184ce42a4bae5a6822290fd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a8650a0ebea0c193c3c5ef6061264f') in 0.050760 seconds 
+  Import took 0.058159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000658 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_88.asset
+  artifactKey: Guid(8af95befc7ec4124bbe60497978877a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_88.asset using Guid(8af95befc7ec4124bbe60497978877a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80934c588302f8955b6441e017e344cb') in 0.135548 seconds 
+  Import took 0.221855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_138.asset
+  artifactKey: Guid(3ac1c6ac45894674bb1653175cdd474b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_138.asset using Guid(3ac1c6ac45894674bb1653175cdd474b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89257029e47874d6ee01b0a50f2fee0') in 0.045667 seconds 
+  Import took 0.051318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001467 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_133.asset
+  artifactKey: Guid(36b610c60cc67ee41a94d39718ed5bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_133.asset using Guid(36b610c60cc67ee41a94d39718ed5bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698ed0f2f144fd116c3e1acdf68a189f') in 0.079279 seconds 
+  Import took 0.089054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_118.asset
+  artifactKey: Guid(7bca4ed4d585cc148879ec4c9da3c8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_118.asset using Guid(7bca4ed4d585cc148879ec4c9da3c8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f1d914b83effa1a73a7c794ccef496') in 0.103173 seconds 
+  Import took 0.110197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_83.asset
+  artifactKey: Guid(f34f5291249eb25499e230acc0f8af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_83.asset using Guid(f34f5291249eb25499e230acc0f8af98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cf1853db139a1ce30da21c4d1dbd82') in 0.200275 seconds 
+  Import took 0.447728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Spritesheets/hexagonAll_sheet_105.asset
+  artifactKey: Guid(9bd5150226dbb3f44855c29b9734266d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spritesheets/hexagonAll_sheet_105.asset using Guid(9bd5150226dbb3f44855c29b9734266d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5b4789bf3f1876f64784be54230920') in 0.044850 seconds 
+  Import took 0.052867 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.571749 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.932 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2079 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2539.
+Total: 4.260900 ms (FindLiveObjects: 0.563400 ms CreateObjectMapping: 0.123100 ms MarkObjects: 3.284200 ms  DeleteObjects: 0.288000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1877.541644 seconds.
+  path: Assets/Tilesheet
+  artifactKey: Guid(1225c76fd3375f1458cd8cf7293b68bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesheet using Guid(1225c76fd3375f1458cd8cf7293b68bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b09f936690963ba2f9ec4e306b12a87') in 0.023577 seconds 
+  Import took 0.034368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039852 seconds.
+  path: Assets/Tilesheet/medieval_tilesheet.png
+  artifactKey: Guid(b615eb7afbc134a48b4683a874b5f294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesheet/medieval_tilesheet.png using Guid(b615eb7afbc134a48b4683a874b5f294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ae25ce56d60fcb18bfa564b063028c') in 0.345612 seconds 
+  Import took 0.374506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002103 seconds.
+  path: Assets/Tilesheet/RTS_medieval@2.png
+  artifactKey: Guid(6308afe9101d66242a24757fa06ca419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesheet/RTS_medieval@2.png using Guid(6308afe9101d66242a24757fa06ca419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23671477835bd0b86eedf78fc098a2bc') in 0.067054 seconds 
+  Import took 0.076171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.112694 seconds.
+  path: Assets/Tilesheet/RTS_medieval@2.png
+  artifactKey: Guid(6308afe9101d66242a24757fa06ca419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesheet/RTS_medieval@2.png using Guid(6308afe9101d66242a24757fa06ca419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7a51504353c3f495867489c0c1a386') in 0.028089 seconds 
+  Import took 0.038597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005289 seconds.
+  path: Assets/Tilesheet/RTS_medieval@2.png
+  artifactKey: Guid(6308afe9101d66242a24757fa06ca419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesheet/RTS_medieval@2.png using Guid(6308afe9101d66242a24757fa06ca419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7a51504353c3f495867489c0c1a386') in 0.045762 seconds 
+  Import took 0.058205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.190081 seconds.
+  path: Assets/Tilesheet/RTS_medieval@2.png
+  artifactKey: Guid(6308afe9101d66242a24757fa06ca419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesheet/RTS_medieval@2.png using Guid(6308afe9101d66242a24757fa06ca419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eded2984c27b7fe244ddb695495f9ba0') in 0.750933 seconds 
+  Import took 0.905674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.494266 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.012623 seconds 
+  Import took 0.019659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001973 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004165 seconds 
+  Import took 0.015422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.991345 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(0aef261a81ba4fe49b43400484d8ef4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(0aef261a81ba4fe49b43400484d8ef4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13605db78048dcd848d37a6620f897ef') in 0.014721 seconds 
+  Import took 0.117191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.284877 seconds.
+  path: Assets/Prefabs/Spear Unit.prefab
+  artifactKey: Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spear Unit.prefab using Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19ffe20a9f61f3a824ef4ea523d452c') in 0.128821 seconds 
+  Import took 0.135672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.961385 seconds.
+  path: Assets/Prefabs/Spear Unit.prefab
+  artifactKey: Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spear Unit.prefab using Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9438d00daca192dd4a8c079ccd7d4f') in 0.080842 seconds 
+  Import took 0.091978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001355 seconds.
+  path: Assets/Prefabs/Spear Unit.prefab
+  artifactKey: Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spear Unit.prefab using Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9438d00daca192dd4a8c079ccd7d4f') in 0.027406 seconds 
+  Import took 0.033912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.884772 seconds.
+  path: Assets/Prefabs/Spear Unit.prefab
+  artifactKey: Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spear Unit.prefab using Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8292b355b86d15f5363dde273fbb74a9') in 0.034398 seconds 
+  Import took 0.061835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.654070 seconds.
+  path: Assets/Prefabs/Spear Unit.prefab
+  artifactKey: Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spear Unit.prefab using Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe64cf34fe7d183d784ed00542e91c6b') in 0.080785 seconds 
+  Import took 0.196601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.083867 seconds.
+  path: Assets/Prefabs/Spear Unit.prefab
+  artifactKey: Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spear Unit.prefab using Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e1a744f836fc51b1b22cea6005e1f9') in 0.029674 seconds 
+  Import took 0.038140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.472692 seconds.
+  path: Assets/Prefabs/Spear Unit.prefab
+  artifactKey: Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spear Unit.prefab using Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df20c9eea2a962b60ffc4e94bef9cc7') in 0.034250 seconds 
+  Import took 0.045775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.685268 seconds.
+  path: Assets/Prefabs/Spear Unit.prefab
+  artifactKey: Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spear Unit.prefab using Guid(e88f5a5227ec25b4fbdb05ef7b1e5ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56a702d07dd0ef9a005ee5b89310c79') in 0.028966 seconds 
+  Import took 0.037116 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.267155 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.659 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2672.
+Total: 3.701900 ms (FindLiveObjects: 0.238500 ms CreateObjectMapping: 0.101400 ms MarkObjects: 3.182000 ms  DeleteObjects: 0.178000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 450.775613 seconds.
+  path: Assets/Troops.cs
+  artifactKey: Guid(c1a8a9b2848754f4aad75d5d011e223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Troops.cs using Guid(c1a8a9b2848754f4aad75d5d011e223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f61ac080565f3993ff88f2f8e3482f') in 0.588555 seconds 
+  Import took 0.605746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1083.149196 seconds.
+  path: Assets/Tactics.cs
+  artifactKey: Guid(2d6a12b59022d964c8b3e2aadee72028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tactics.cs using Guid(2d6a12b59022d964c8b3e2aadee72028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f631eb69b5ce3b7e7faa9a23008d741f') in 0.046475 seconds 
+  Import took 0.051601 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.785915 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.150 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2677.
+Total: 21.635500 ms (FindLiveObjects: 0.336700 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.566500 ms  DeleteObjects: 18.650500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
