@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Tactics : MonoBehaviour
 {
-    
+    public string name;
+    public int cooldown;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +18,5 @@ public class Tactics : MonoBehaviour
     {
         
     }
-    void checkTactic()
-    {
-       
-    }
+    
 }
