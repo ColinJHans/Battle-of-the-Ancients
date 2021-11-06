@@ -7,6 +7,7 @@ public class Troops : MonoBehaviour
     [SerializeField] public int Health = 5;
     [SerializeField] public string type = "";
     [SerializeField] public int range;
+    Enemy enemy;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,4 +38,25 @@ public class Troops : MonoBehaviour
         Health ++;
     }
 
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        
+        if (col.gameObject.tag == "Enemy")
+        {
+            loseHealth();
+            if (Health == 0){
+                Destroy();
+            }
+        }
+    }
+
+    void Destroy()
+    {
+        Debug.Log("Dead");
+    }
+    public void loseHealth()
+    {
+        Health--;
+    }
 }

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2079345666236291012}
   - component: {fileID: 6976837580876731292}
   - component: {fileID: 8076973896955689752}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,7 +45,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.5518985, y: 0.22075939}
@@ -73,6 +73,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8ed5e2d332b4ef4083f12be3b09fce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Health: 5
+  Type: Basic
 --- !u!1 &2694169306959703029
 GameObject:
   m_ObjectHideFlags: 0
@@ -83,7 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2099185009793445597}
   - component: {fileID: 4841232223384539357}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: RTS_medieval@2_86
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8199030451092728925}
   - component: {fileID: 2293835190411508062}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: RTS_medieval@2_86 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4363478048688527380}
   - component: {fileID: 6544773005361413883}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: RTS_medieval@2_85
   m_TagString: Untagged
   m_Icon: {fileID: 0}

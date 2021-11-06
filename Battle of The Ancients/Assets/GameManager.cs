@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     private Collider2D clicked = null;
     bool moving = false;
+    bool resting = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,6 +49,23 @@ public class GameManager : MonoBehaviour
                 clicked.GetComponent<Troops>().Move(mousepos);
                 moving = false;
             }
+            if (!resting)
+            {
+                clicked = Physics2D.OverlapCircle(new Vector2(mousepos.x, mousepos.y), .5f, LayerMask.GetMask("Units"));
+                foreach (SpriteRenderer child in clicked.gameObject.GetComponentsInChildren<SpriteRenderer>(false))
+                {
+                    if (child.name == "Highlight")
+                    {
+                        child.enabled = true;
+                    }
+                }
+            }
+            else
+            {
+                clicked.GetComponent<Troops>().Rest();
+                resting = false;
+            }
+
         }
     }
 
@@ -55,5 +73,10 @@ public class GameManager : MonoBehaviour
     {
         
         moving = true;
+    }
+
+    public void Rest()
+    {
+        resting = true;
     }
 }

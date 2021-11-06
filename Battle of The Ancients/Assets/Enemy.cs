@@ -17,4 +17,17 @@ public class Enemy : MonoBehaviour
     {
         
     }
+
+    public void loseHealth()
+    {
+        Health--;
+    }
+    public void OnTriggerEnter2D(Collider2D col)
+    {
+        Debug.Log(col.gameObject.tag);
+        if (col.gameObject.tag == "Enemy")
+        {
+            Debug.Log("Hit");
+        }
+    }
 }
