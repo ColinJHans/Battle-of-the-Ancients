@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class Troops : MonoBehaviour
 {
-    [SerializeField] public int Health = 5;
+    [SerializeField] public int MaxHealth;
     [SerializeField] public string type = "";
-    [SerializeField] public int range;
-    Enemy enemy;
+    [SerializeField] public int MoveRange;
+    [SerializeField] public int AttackRange;
+    
+    public int maxTroops = 4;
+    public int numTroops = 0;
+    public int CurrentHealth;
+    public string enemy = null;
+    private Coroutine Coroutine = null;
     // Start is called before the first frame update
-    void Start()
+    virtual public void Start()
     {
-        
+        numTroops = maxTroops;
     }
 
     // Update is called once per frame
@@ -22,7 +28,7 @@ public class Troops : MonoBehaviour
 
     public void Move(Vector3 mousepos)
     {
-        if (Vector2.Distance(new Vector2(mousepos.x, mousepos.y), new Vector2(transform.position.x, transform.position.y)) < range)
+        if (Vector2.Distance(new Vector2(mousepos.x, mousepos.y), new Vector2(transform.position.x, transform.position.y)) < MoveRange)
         {
             
             transform.position = new Vector3(mousepos.x,mousepos.y,0);
@@ -35,28 +41,84 @@ public class Troops : MonoBehaviour
 
     public void Rest()
     {
-        Health ++;
-    }
-
-
-    private void OnCollisionEnter2D(Collision2D col)
-    {
-        
-        if (col.gameObject.tag == "Enemy")
+        if (CurrentHealth < MaxHealth)
         {
-            loseHealth();
-            if (Health == 0){
-                Destroy();
-            }
+            CurrentHealth++;
+        }
+        else
+        {
+            Debug.Log("Full Health!");
         }
     }
 
-    void Destroy()
+
+   
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        Debug.Log("Dead");
+        Hit(col);
     }
-    public void loseHealth()
+    
+    private void Hit(Collision2D col)
     {
-        Health--;
+
+        if (col.gameObject.tag == enemy)
+        {
+            this.Coroutine = StartCoroutine(Battle());
+            
+        }
+
     }
-}
+
+    private void OnCollisionExit2D(Collision2D col)
+    {
+        if (col.gameObject.tag == enemy)
+        {
+            StopCoroutine(this.Coroutine);
+        }
+    }
+
+    IEnumerator Battle()
+    {
+        WaitForSeconds wait = new WaitForSeconds(2);
+        while (true)
+        {
+            loseHealth();
+            yield return wait;
+        }
+    }
+
+    virtual public void loseHealth()
+    {
+        Debug.Log("Error: Wrong loseHealth()");
+        return;
+    }
+
+
+    public void updateTroops(int inumTroops)
+    {
+        if (gameObject.tag == "Player")
+        {
+            Debug.Log(inumTroops);
+
+        }
+        foreach (Transform child in GetComponentsInChildren<Transform>(false))
+        {
+            if (inumTroops == maxTroops)
+            {
+                return;
+            }
+            if (child.gameObject.tag == "Unit")
+            {
+                if (gameObject.tag == "Player")
+                {
+                    Debug.Log(child.gameObject.name);
+
+                }
+                inumTroops++;
+                child.GetComponent<SpriteRenderer>().enabled = false;
+                
+            }
+        }
+            }
+    }
+
