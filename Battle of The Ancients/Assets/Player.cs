@@ -16,10 +16,21 @@ public class Player : Troops
     {
         
     }
+    /*
+    IEnumerator Bleed()
+    {
+        WaitForSeconds wait = new WaitForSeconds(.5f);
+        while (true)
+        {
+            activateBlood();
+            yield return wait;
+        }
+    }
+    */
     override public void loseHealth()
     {
         numTroops = maxTroops;
-        CurrentHealth--;
+        CurrentHealth-= enemyDamage;
         if ((MaxHealth * .75) > CurrentHealth)
         {
             numTroops--;

@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class Enemy : Troops
 {
-
     override public void Start()
     {
         base.Start();
-        MaxHealth = 6;
-        CurrentHealth = MaxHealth;
-        numTroops = 3;
-        maxTroops = 3;
         enemy = "Player";
+        
     }
 
     // Update is called once per frame
@@ -20,11 +16,22 @@ public class Enemy : Troops
     {
         
     }
-
+    /*
+    IEnumerator Bleed()
+    {
+        WaitForSeconds wait = new WaitForSeconds(.5f);
+        while (true)
+        {
+            activateBlood();
+            yield return wait;
+        }
+    }
+    */
     override public void loseHealth()
     {
+
         numTroops = maxTroops;
-        CurrentHealth--;
+        CurrentHealth -= enemyDamage;
         if ((MaxHealth * .67) > CurrentHealth)
         {
             numTroops--;
@@ -40,4 +47,5 @@ public class Enemy : Troops
         }
         updateTroops(numTroops);
     }
+
 }

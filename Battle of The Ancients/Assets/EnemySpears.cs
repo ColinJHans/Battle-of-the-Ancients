@@ -2,19 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BrawlerTroop : Player
+public class EnemySpears : Enemy
 {
     // Start is called before the first frame update
     override public void Start()
     {
         base.Start();
-        type = "Brawler Troop";
-        MaxHealth = 15;
+        MaxHealth = 6;
         CurrentHealth = MaxHealth;
-        MoveRange = 4;
-        AttackRange = 2;
-        Damage = .5f;
-
+        numTroops = 3;
+        maxTroops = 3;
+        Damage = 2f;
+        AttackRange = -3;
+        enemy = "Player";
     }
 
     // Update is called once per frame

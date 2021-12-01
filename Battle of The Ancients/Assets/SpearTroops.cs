@@ -13,6 +13,7 @@ public class SpearTroops : Player
         CurrentHealth = MaxHealth;
         MoveRange = 3;
         AttackRange = 3;
+        Damage = 1;
         
     }
 

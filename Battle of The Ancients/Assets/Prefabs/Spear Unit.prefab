@@ -497,9 +497,10 @@ MonoBehaviour:
   type: Spear
   MoveRange: 3
   AttackRange: 3
-  numTroops: 4
   maxTroops: 4
+  numTroops: 4
   CurrentHealth: 10
+  Damage: 0
   enemy: 
 --- !u!50 &173340634734497302
 Rigidbody2D:
