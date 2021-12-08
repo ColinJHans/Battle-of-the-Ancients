@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class Enemy : Troops
 {
+    public static int count = 0;
+    void Awake()
+    {
+        count++;
+    }
     override public void Start()
     {
         base.Start();
@@ -44,6 +49,7 @@ public class Enemy : Troops
         if (0 >= CurrentHealth)
         {
             Destroy(this.gameObject);
+            count--;
         }
         updateTroops(numTroops);
     }

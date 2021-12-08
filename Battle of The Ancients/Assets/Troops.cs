@@ -39,7 +39,7 @@ public class Troops : MonoBehaviour
         }
         else
         {
-            Debug.Log(Vector2.Distance(new Vector2(mousepos.x, mousepos.y), new Vector2(transform.position.x, transform.position.y)));
+            Debug.Log(Vector2.Distance(new Vector2(mousepos.x, mousepos.y), new Vector2(transform.position.x, transform.position.y)) + " is too far");
         }
     }
 
@@ -60,6 +60,7 @@ public class Troops : MonoBehaviour
         {
             Physics2D.IgnoreCollision(col.collider, GetComponent<Collider2D>());
         }
+
         DamageTroops(col);
         Hit(col);
     }
@@ -67,8 +68,7 @@ public class Troops : MonoBehaviour
     private void Hit(Collision2D col)
     {
         float distance = ((col.transform.position.x - gameObject.transform.position.x) + (col.transform.position.y - gameObject.transform.position.y));
-        Debug.Log(gameObject.name);
-        Debug.Log(distance);
+
         
         if (col.gameObject.tag == enemy && AttackRange >= distance && distance > 0)
         {
@@ -171,7 +171,7 @@ public class Troops : MonoBehaviour
         }
         else if (collision.gameObject.name.Contains("Sword Unit"))
         {
-            enemyDamage = 1.5f;
+            enemyDamage = 2f;
         }
 
         if (collision.gameObject.name.Contains("EnemySpear"))

@@ -2,23 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySpears : Enemy
+public class SwordUnit : Player
 {
     // Start is called before the first frame update
     override public void Start()
     {
         base.Start();
+        type = "Sword Troop";
         MaxHealth = 6;
         CurrentHealth = MaxHealth;
-        numTroops = 3;
-        maxTroops = 3;
+        MoveRange = 3;
+        AttackRange = 3;
         Damage = 2f;
-        AttackRange = -3;
-    }
+        maxTroops = 3;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

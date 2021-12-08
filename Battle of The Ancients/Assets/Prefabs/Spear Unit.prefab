@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 209550328235386218}
   m_Layer: 0
   m_Name: HitBox
-  m_TagString: Untagged
+  m_TagString: Blood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -502,6 +502,7 @@ MonoBehaviour:
   CurrentHealth: 10
   Damage: 0
   enemy: 
+  enemyDamage: 0
 --- !u!50 &173340634734497302
 Rigidbody2D:
   serializedVersion: 4

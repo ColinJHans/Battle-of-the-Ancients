@@ -5,6 +5,11 @@ using UnityEngine;
 public class Player : Troops
 {
     // Start is called before the first frame update
+    public static int count = 0;
+    void Awake()
+    {
+        count++;
+    }
     override public void Start()
     {
         base.Start();
@@ -48,6 +53,7 @@ public class Player : Troops
         if (0 >= CurrentHealth)
         {
             Destroy(this.gameObject);
+            count--;
         }
         updateTroops(numTroops);
     }

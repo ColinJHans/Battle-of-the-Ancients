@@ -391,7 +391,9 @@ MonoBehaviour:
   maxTroops: 4
   numTroops: 4
   CurrentHealth: 15
+  Damage: 0
   enemy: 
+  enemyDamage: 0
 --- !u!61 &6396562031814860687
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -537,7 +539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2827167983101861352
 Transform:
   m_ObjectHideFlags: 0

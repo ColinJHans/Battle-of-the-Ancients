@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MagicUnit : Troops
+public class MagicUnit : Player
 {
     // Start is called before the first frame update
+    // Working on figuring out range without making units run into each other
     override public void Start()
     {
         base.Start();

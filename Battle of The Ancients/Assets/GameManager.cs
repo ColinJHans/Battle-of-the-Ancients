@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+     
     }
 
     // Update is called once per frame
@@ -67,10 +68,60 @@ public class GameManager : MonoBehaviour
             }
 
         }
+        bool areEnemiesDead = EnemiesDead();
+        bool isPlayerDead = PlayerDead();
+        bool isEnemyKingDead = KingDead();
+        if (areEnemiesDead || isEnemyKingDead)
+        {
+            //go to victory screen
+            GameObject[] ending = GameObject.FindGameObjectsWithTag("WinScreen");
+            foreach (GameObject end in ending)
+            {
+                if (end.name == "Text")
+                {
+                    end.GetComponent<Text>().enabled = true;
+                }
+                else
+                {
+                    end.GetComponent<SpriteRenderer>().enabled = true;
+                }
+            }
+            return;
+        }
+        else if (isPlayerDead)
+        {
+            // go to defeat screen
+            GameObject[] ending = GameObject.FindGameObjectsWithTag("LoseScreen");
+            foreach (GameObject end in ending)
+            {
+                if (end.name == "Text")
+                {
+                    end.GetComponent<Text>().enabled = true;
+                }
+                else
+                {
+                    end.GetComponent<SpriteRenderer>().enabled = true;
+                }
+            }
+            return;
+        }
     }
 
 
+    public bool EnemiesDead()
+    {
+        return Enemy.count == 0;
+    }
 
+    public bool PlayerDead()
+    {
+        return Player.count == 0;
+    }
+
+    public bool KingDead()
+    {
+        return !King.Alive;
+    }
     public void Move()
     {
         
